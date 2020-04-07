@@ -359,7 +359,6 @@ PRODUCT_PACKAGES += \
     ims_ext_common.xml
 
 PRODUCT_BOOT_JARS += \
-    ims-ext-common_system \
     telephony-ext
 
 # TextClassifier
