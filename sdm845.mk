@@ -350,9 +350,16 @@ PRODUCT_COPY_FILES += \
 
 # Telephony
 PRODUCT_PACKAGES += \
-    telephony-ext
+    telephony-ext \
+    qti-telephony-hidl-wrapper \
+    qti_telephony_hidl_wrapper.xml \
+    qti-telephony-utils \
+    qti_telephony_utils.xml \
+    ims-ext-common \
+    ims_ext_common.xml
 
 PRODUCT_BOOT_JARS += \
+    ims-ext-common_system \
     telephony-ext
 
 # TextClassifier
@@ -404,4 +411,4 @@ PRODUCT_PACKAGES += \
     libqdMetaData.system
 
 PRODUCT_BOOT_JARS += \
-    WfdCommon
+    WfdCommon    
