@@ -10,6 +10,10 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.netflix.bsp_rev=Q845-05000-1
 
+# Radio
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    persist.sys.fflag.override.settings_network_and_internet_v2=true
+
 # Dalvik
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     dalvik.vm.heapstartsize=8m \
